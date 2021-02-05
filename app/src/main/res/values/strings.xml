@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Shadow Browser</string>
+
+    <string name="url_input">Page URL</string>
+    <string name="no_tabs_open">No Tabs</string>
+    <string name="no_tabs_open_tooltip">Press + to create a new tab</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+
+
+    <!-- Content Descriptions -->
+    <string name="shadow_logo_content_desc">Shadow Browser Logo</string>
+    <string name="no_tabs_open_content_desc">No Tabs Open Icon</string>
+    <string name="new_tab_content_desc">New Tab</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+</resources>
