@@ -34,64 +34,42 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/shadowBlack_500"
             android:fontFamily="@font/montserrat"
-            android:text="Button"
+            android:text="@string/settings_search_engine"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5pt" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/render_engine_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/shadowBlack_500"
             android:fontFamily="@font/montserrat"
-            android:text="Button"
+            android:text="@string/settings_render_engine"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5pt" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/reset_shadow_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/shadowBlack_500"
             android:fontFamily="@font/montserrat"
-            android:text="Button"
+            android:text="@string/settings_reset_shadow"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="30sp" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat"
-            android:text="Button"
-            android:textColor="@color/white"
-            android:textSize="30sp" />
-
-        <RadioGroup
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-
-            <RadioButton
-                android:id="@+id/radioButton"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:button="@drawable/ic_launcher_foreground"
-                android:fontFamily="@font/montserrat"
-                android:text="Chrome Renderer"
-                android:textColor="@color/white"
-                android:textSize="30sp" />
-
-            <RadioButton
-                android:id="@+id/radioButton3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:button="@drawable/ic_launcher_foreground"
-                android:checked="true"
-                android:fontFamily="@font/montserrat"
-                android:text="Shadow Renderer"
-                android:textColor="@color/white"
-                android:textSize="30sp" />
-
-        </RadioGroup>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
